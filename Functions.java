@@ -8,11 +8,11 @@ public class Functions {
     }
 
     public static int multiply(int a, int b) {
-        return a * b; 
+        return a * b;
     }
 
-    public static void printFactorial(int n){
-        if (n < 0) {   // negative number invalid hai
+    public static void printFactorial(int n) {
+        if (n < 0) { // negative number invalid hai
             System.out.println("Invalid number");
             return;
         }
@@ -31,14 +31,14 @@ public class Functions {
         int a = sc.nextInt();
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
-        
+
         // Sum print
         sum(a, b);
-        
+
         // Multiply return
         int result = multiply(a, b);
         System.out.println("Multiplication = " + result);
-        
+
         System.out.print("Enter number for factorial: ");
         int n = sc.nextInt();
 
